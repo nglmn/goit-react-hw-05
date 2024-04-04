@@ -1,0 +1,27 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.navLink{
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 100;
+    transition: 25ms all ease;
+}
+.active{
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 25ms all ease;
+}
+header{
+    width: 100%;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.241);
+    padding: 15px 15px 15px 0px;
+    background-color: #1d1d1d;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+

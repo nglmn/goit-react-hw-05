@@ -1,0 +1,48 @@
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    height: 400px;
+    width: 700px;
+    border: 0.5px solid rgba(0, 0, 0, 0.135);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.157);
+    overflow: hidden;
+    background-color: rgb(230, 238, 245);
+}
+.imageWrapper{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    /* filter: grayscale(); */
+}
+.styleBlock{
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(230, 238, 245);
+    filter: blur(5px);
+    scale: 1.7;
+}
+.movieCover{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.movieDetails{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.movieTitle{
+    display: block;
+    
+}
+

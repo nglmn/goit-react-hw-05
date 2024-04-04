@@ -1,0 +1,15 @@
+.trandingFIlmsList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.title span{
+    font-weight: 600;
+    font-style: italic;
+}
