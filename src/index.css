@@ -5,6 +5,7 @@ body{
     font-style: normal;
     background-color: rgb(230, 238, 245);
     margin: 0;
+    overflow-x: hidden;
 }
 
 ul, li{
@@ -20,6 +21,7 @@ h1,h2,h3,h4,h5,h6{
 
 a{
     text-decoration: none;
+    color: rgb(59, 59, 59);
 }
 p{
     padding: 0;

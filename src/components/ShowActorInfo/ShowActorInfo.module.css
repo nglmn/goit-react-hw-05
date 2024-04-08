@@ -1,0 +1,23 @@
+.actorCard{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actorPhoto{
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    filter: grayscale(50%);
+}
+.actorName{
+    font-size: 15px;
+    font-weight: 400;
+}
+.actorCharacter{
+    font-size: 10px;
+    font-weight: 200;
+}
